@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  color: #45b29a;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #45b29a;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #45b29a;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 5px;
+  border-bottom: none;
+  width: 4%;
+  margin: 80px auto;
+}
+
+.top-container {
+  background-color: rgb(224, 235, 232);
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-top: 120px;
+  background-color: #c5ded7;
+  padding: 50px 0 42px 0;
+}
+li{
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+.imageprofile {
+  width: 22%;
+  float: left;
+  margin: 50px 150px auto auto;
+}
+.imageprofile2 {
+  width: 22%;
+  float: right;
+  margin: 10px auto auto 150px;
+}
+.imageprofile3 {
+  width: 22%;
+  float: left;
+  margin: 20px 150px auto auto;
+}
+.copyright {
+  font-size: 12px;
+  color: #45b29a;
+  padding-top: 40px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 160px;
+  right: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 370px;
+}
+
+.themeimg {
+  margin-bottom: 100px;
+  position: relative;
+  top: 105px;
+}
+
+.boy-icon {
+  width: 144px;
+}
+
+.programmer {
+  margin-top: 0;
+  position: absolute;
+  right: 280px;
+  font-size: 165%;
+}
+
+.heading {
+  color: #1e836c;
+  font-size: 45px;
+  margin: 35px auto 20px auto;
+}
+
+.profile {
+  width: 40%;
+  margin: 80px auto auto auto;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #1b7f69;
+  font-size: 16px;
+  background: #45b29a;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.btn:hover {
+  background: #3ea08a;
+  text-decoration: none;
+}
+
+.footer-link {
+  margin: auto 25px auto 25px;
+  text-decoration: none;
+  color: #45b29a;
+  font-size: 17px;
+}
+
+.footer-link:hover {
+  color: #1d2b27;
+}
+
+.contact-me {
+  margin-top: 60px;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skill-row2 {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.hlo {
+  width: 40%;
+  margin: auto auto 50px auto;
+}
