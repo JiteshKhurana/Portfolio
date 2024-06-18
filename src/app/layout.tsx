@@ -5,7 +5,7 @@ import './globals.css'
 const workSans = Work_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'John Doe',
+  title: 'Jitesh Khurana',
 }
 
 export default function RootLayout({

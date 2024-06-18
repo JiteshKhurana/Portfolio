@@ -6,21 +6,17 @@ export default function Home() {
       <div className="mb-12 w-full xl:fixed xl:mb-0 xl:w-[500px]">
         <img
           className="h-28 w-28 rounded-full border-2 border-black xl:h-[184px] xl:w-[184px]"
-          src="/pfp.png"
+          src="https://avatars.githubusercontent.com/u/95995545?v=4"
           alt="profile picture"
         />
 
         <div className="mt-8">
-          <h2 className="text-3xl font-heading sm:text-[44px]">John Doe</h2>
+          <h2 className="text-3xl font-heading sm:text-[44px]">
+            Jitesh Khurana
+          </h2>
           <p className="mt-4 text-base font-base sm:text-xl">
-            This is the bento neobrutalism template. Check the{' '}
-            <a
-              className="font-heading underline"
-              href="https://github.com/neobrutalism-templates/bento"
-            >
-              github repo
-            </a>{' '}
-            for more info.
+            I love how technology is evolving every day, and I want to be a part
+            of it, making people&apos;s lives better and more productive.
           </p>
         </div>
       </div>
