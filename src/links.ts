@@ -3,7 +3,8 @@ import instagram from '../public/icons/instagram.svg'
 import linkedin from '../public/icons/linkedin.svg'
 import readcv from '../public/icons/read-cv.svg'
 import x from '../public/icons/x.svg'
-import youtube from '../public/icons/youtube.svg'
+import code from '../public/icons/code.svg'
+import leetcode from '../public/icons/leetcode.svg'
 
 type SocialMedia = (typeof websites)[number]
 
@@ -14,9 +15,22 @@ type Link = {
   text?: string
 }
 
-const websites = ['github', 'instagram', 'linkedin', 'Resume', 'x', 'youtube']
+const websites = [
+  'github',
+  'instagram',
+  'linkedin',
+  'Resume',
+  'x',
+  'leetcode',
+  'projects',
+]
 
 const LINKS: { [key in SocialMedia]: Link } = {
+  projects: {
+    title: 'Projects',
+    icon: code,
+    link: '/projects',
+  },
   github: {
     title: 'Github',
     icon: github,
@@ -47,12 +61,11 @@ const LINKS: { [key in SocialMedia]: Link } = {
     link: 'https://drive.google.com/file/d/13HtvJ2NVljJSv0Kx_M7ljnMxhVDCMlsJ/view?usp=sharing',
     text: '@jiteshkhurana',
   },
-
-  youtube: {
-    title: 'Youtube',
-    icon: youtube,
-    link: 'https://www.youtube.com/@jitesh_khurana',
-    text: '@jitesh_khurana',
+  leetcode: {
+    title: 'Leetcode',
+    icon: leetcode,
+    link: 'https://leetcode.com/u/Jiteshkhurana/',
+    text: '@Jiteshkhurana',
   },
 }
 
